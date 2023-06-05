@@ -45,7 +45,7 @@ And here. | Okay. | I think we get it.
 function App() {
   const [text, setText] = useState(value);
   return (
-    <div className="">
+    <div className="app">
       <h1 className="title">Markdown preview</h1>
       <textarea
         id="editor"
